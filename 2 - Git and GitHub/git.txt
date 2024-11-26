@@ -9,7 +9,9 @@
 2. Staging Area - git add .
 3. Commit Area - git commit -m "This is the description"
 
-# git log || git log --oneline
+# git log
+# git log --oneline
+
 BRANCH
 # Create a BRANCH
 git branch [branch_name]
@@ -20,3 +22,6 @@ git branch -a
 # Switch to a different branch
 git checkout [branch_name]
 git switch [branch_name]
+
+# Merging feature branch to our master/main branch
+git merge
